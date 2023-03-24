@@ -14,15 +14,12 @@ from autocorrect import spell
 from collections import OrderedDict
 #import progressbar as pb
 
-
-
 # function that cleans text
 # still need to account for contractions, abbreviations, and numbers/fractions
 default_stemmer = PorterStemmer()
 default_stopwords = stopwords.words('english') # or any other list of your choice
 def clean_text(text, remove_punctuation = False, remove_stopwords = False):
 
-        #TO REPLICATE EXPERIMENT, THIS IS DIRECTLY CITED FROM CODEBASE
         def misc_cleaning(text):
                 text = re.sub("-([a-zA-Z]+)", r"\1", text) # replaces hyphen with spaces in case of strings
                 text = re.sub(' y ', '', text) # gets rid of random y accent stuff scattered through the text
