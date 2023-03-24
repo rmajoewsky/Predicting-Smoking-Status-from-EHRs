@@ -1,4 +1,4 @@
-# NLP_Smoking_Extraction
+# Predicting Smoking Status from EHRs
 Natural Language Processing and Deep Learning in order to determine smoking status from Electronic Health Records
 
 NLP Pipeline for determining smoking status based on patient progress notes
@@ -14,9 +14,3 @@ Run ReadSmokeData.py first to load and preprocess data, this will take a few min
 The various model files in Machine Learning Directory do not need to be run in any particular order, but must all be run before graphs can be generated
 
 run our_graphs.py to generate graphs for this experiment
-graphs from this experiment are stored in Our_Results folder within the Machine Learning directory
-
-run graphs_from_paper.py to generate graphs with hardcoded values from reference paper for comparison purposes
-graphs from reference paper data are stored in Paper_Results folder within the Machine Learning Directory
-
-Directories Our_Results and Paper_Results already contain graphs that were produced during experiments and are included in report
