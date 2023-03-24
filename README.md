@@ -1,5 +1,5 @@
 # NLP_Smoking_Extraction
-Natural Language Processing and Deep Learning in order to determine smoking status
+Natural Language Processing and Deep Learning in order to determine smoking status from Electronic Health Records
 
 NLP Pipeline for determining smoking status based on patient progress notes
 
